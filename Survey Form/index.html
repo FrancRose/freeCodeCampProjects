@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+
+    <title>Application to Submit a Comment</title>
+</head>
+<body>
+
+  <h1 id="title">Application to Submit a Comment</h1>
+  <p id="description">If the application is not filled out truthfully <strong>you will be banned!</strong></p>
+
+<div id="form-border">
+  <form id="survey-form">
+    <div class="lines">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" required id="name" name="user-name" placeholder="Enter Name">
+    </div>
+        
+    <div class="lines">
+        <label for="screenname" id="screen-name">Screen Name:</label>
+        <input type="text" id="screen-name" name="Screen Name" placeholder="Enter Screen Name">
+    </div>
+       
+    <div class="lines">
+        <label id="email-label" for="Email">Email:</label>
+        <input type="email" required id="email" name="user_email" placeholder="Enter Email">
+    </div>
+       
+    <div class="lines">
+       <label id="number-label" for="#-of-previous-comments"># of Previous Comments</label>
+        <input type="number" id="number" name="#-of-previous-comments" placeholder="Enter Comment Number" min="1" max="9">
+    </div>
+        
+    <div class="lines">
+      <label id="iq-label" for="iq">IQ</label>
+      <input type="number" id="iq" name="iq" placeholder="Enter IQ Here">
+    </div>
+  <br>
+    <div class="lines">
+      <label for="gender">Gender</label>
+        <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+        </p>
+    </div>
+
+    <div class="lines">
+        <label for="date-label">Date for Proposed Comment</label>
+        <input type="date" name="comment-date">
+    </div>
+  <br>
+    <div class="lines">
+      <label for="Details">Check All Applicable</label>
+      <p>
+      <input type="checkbox" name="stupid-comments" value="stupid-comments"> I have made stupid comments in the past<br>
+        <input type="checkbox" name="smarter-than" value="smarts"> I think I'm the smartest in the room<br>
+        <input type="checkbox" name="conspiracy" value="theorist"> I'm an anti-vaxxer or flat-earther<br>
+        <input type="checkbox" name="difference" value="grammar"> I know the difference between your and you're<br>
+        <input type="checkbox" name="start" value="assumption"> My comment starts with "Well Actually"<br>
+        <input type="checkbox" name="spelling" value="basics"> There are spelling, gramatical or syntax errors in my comment<br>
+      </p>
+    </div>
+        <label for="politics">Political Idealogy:</label>
+          <select id="dropdown">
+            <option value="liberal">Liberal</option>
+            <option value="conservative">Conservative</option>
+            <option value="socialist">Socialist</option>
+            <option value="sovereign">Sovereign Citizen</option>
+          </select>
+          
+          <label for="politics">Education Level</label>
+          <select id="dropdown2">
+      <option value="college">College</option>
+            <option value="high-school">High School</option>
+            <option value="google">I Googled it</option>
+            <option value="conspiracy-theory">Conspiracy Theory Blogs</option>
+          </select>
+   
+    <div class="lines">
+       <label for="msg"></label>
+          <h4> Briefly, describe why your comment is more important than others</h4>
+          <textarea name="user-message" id="msg" cols="50" rows="4" placeholder="Stick Foot in Mouth Here"></textarea>
+    </div>
+        
+    <div class="lines">
+          <label for="msg" id="textarea"></label>
+            <h4>Please copy/paste 2 previous comments</h4>
+          <textarea name="user-message" id="msg2" cols="50" rows="4" placeholder="Stupid Things I've Said for the World to see"></textarea>
+    </div>
+    <br>
+    <div id="submitbutton">
+      <button type="submit" id="submit">Submit Your Application</button>
+    </div>
+
+  </form>
+</div>
+
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

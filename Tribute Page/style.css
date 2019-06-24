@@ -1,0 +1,37 @@
+body {
+	font-family: 'Metal Mania', cursive;
+	font-size: 1.125rem;
+	text-align: center;
+	background-color: black;
+	color: white;
+
+}
+
+h1 {
+	font-size: 55px;
+	color: #830303;
+}
+
+h3 {
+	color: #830303;
+}
+
+.image {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+#headline {
+	text-align: center;
+}
+
+#subject-timeline {
+	display: block;
+	text-align: left;
+}
+
+strong {
+	color: #830303;
+}

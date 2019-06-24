@@ -1,0 +1,41 @@
+body {
+	background-color: grey;
+	font-family: 'Cutive Mono', monospace;
+	text-align: center
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	font-weight: 900;
+}
+
+#description {
+	text-align: center;
+	font-style: italic;
+}
+
+form {
+	border-style: double;
+	display: inline-block;
+	border-radius: 5px;
+	border-width: 5px;
+	text-align: left;
+	background-color: white;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+h4 {
+	text-align: center;
+}
+
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#submitbutton {
+	text-align: center;
+}
